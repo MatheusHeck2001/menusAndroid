@@ -14,7 +14,7 @@ executados"</br>
 
 Foi utilizada uma temática de CS:GO e dos times brasileiros mais "conhecidos" do momento.
 
-[Exemplo de execução do projeto]()</br)
+[Exemplo de execução do projeto](https://github.com/MatheusHeck2001/menusAndroid/blob/main/screenAtCSBR.png)</br>
 
 [Main Activity do projeto](https://github.com/MatheusHeck2001/menusAndroid/blob/main/src/main/java/com/example/atividade4/MainActivity.java)</br>
 [XML do menu criado](https://github.com/MatheusHeck2001/menusAndroid/blob/main/src/main/res/menu/menu_main.xml)</br>
