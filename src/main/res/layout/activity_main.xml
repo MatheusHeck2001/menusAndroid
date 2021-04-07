@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Atividade4.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#052004"
+            app:popupTheme="@style/Theme.Atividade4.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FirstFragment">
+
+        <ImageView
+            android:id="@+id/br"
+            android:layout_width="1207dp"
+            android:layout_height="1394dp"
+            android:alpha="0.5"
+            android:src="@drawable/br"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/mibrImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="292dp"
+            android:layout_marginEnd="60dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/mibr"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/liquidImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="156dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/liquid"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/t1Img"
+            app:layout_constraintHorizontal_bias="0.517"
+            app:layout_constraintStart_toEndOf="@+id/godsentImg" />
+
+        <ImageView
+            android:id="@+id/t1Img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="156dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/t1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/godsentImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="156dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/godsent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/furiaImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="292dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/furia"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/csbr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:text="@string/csbr"
+            android:textColor="#000000"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="339dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/news"
+            android:textAlignment="center"
+            android:textColor="#353333"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/csbr" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="#FFFFFF"
+        app:srcCompat="@android:drawable/ic_menu_share" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

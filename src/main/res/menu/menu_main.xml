@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.atividade4.MainActivity">
+    <item
+        android:id="@+id/mibr"
+        android:orderInCategory="100"
+        android:title="@string/mibr"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/furia"
+        android:orderInCategory="200"
+        android:title="@string/furia" />
+
+    <item
+        android:id="@+id/addTeam"
+        android:orderInCategory="400"
+        android:title="@string/add">
+        <menu>
+            <item
+                android:id="@+id/liquid"
+                android:title="@string/liquid" />
+            <item
+                android:id="@+id/godsent"
+                android:title="@string/godsent" />
+            <item
+                android:id="@+id/teamOne"
+                android:title="@string/teamOne" />
+        </menu>
+    </item>
+
+    <item
+    android:id="@+id/hltv"
+    android:title="@string/hltv"
+    android:orderInCategory="300"
+    />
+</menu>

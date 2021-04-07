@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CSBR News</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- ============================================== -->
+    <string name="mibr">MIBR</string>
+    <string name="furia">Furia</string>
+    <string name="add">Add a BR team</string>
+    <string name="teamOne">Team One</string>
+    <string name="liquid">Team Liquid</string>
+    <string name="godsent">Godsent</string>
+    <string name="hltv">HLTV</string>
+
+    <string name="csbr">CSBR</string>
+    <string name="news">Latest news about brazilian scenario of CS:GO </string>
+
+
+</resources>
